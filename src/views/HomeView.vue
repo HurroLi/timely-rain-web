@@ -2,6 +2,7 @@
 
 import { ref } from 'vue'
 import Header from './Header.vue';
+import Project from './Project.vue'
 </script>
 
 <template>
@@ -11,7 +12,9 @@ import Header from './Header.vue';
       <el-header>
         <Header></Header>
       </el-header>
-      <el-main>Main</el-main>
+      <el-main>
+        <Project/>
+      </el-main>
     </el-container>
   </div>
 </template>
